@@ -222,9 +222,13 @@ h3{
     margin-right: 2em;
 }
 
-.card-title-text:hover{
-    transform: translateY(-5%);
+/* transition */
+.card-title-text, .card-title-text:hover,.cards-packages, .cards-packages:hover{
     transition: all .5s ease-in-out; 
+}
+
+.card-title-text:hover, .cards-packages:hover{
+    transform: translateY(-5%);
 }
 
 /* text and button */
@@ -364,10 +368,7 @@ h3{
     border-top: solid 5px #a1d24a;
 }
 
-.cards-packages:hover{
-    transform: translateY(-5%);
-    transition: all .5s;
-}
+
 
 h5{
     color: #a1d24a;
