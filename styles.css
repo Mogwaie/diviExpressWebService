@@ -503,6 +503,8 @@ h5{
     max-width: 542px;
     font-size: 20px;
     width: 50%;
+    align-self: center;
+    margin-bottom: 1em;
 }
 
 .conatiner-logo-partners{
