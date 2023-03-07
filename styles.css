@@ -535,6 +535,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     max-width: 1250px;
     width: 90%;
     margin: auto;
@@ -544,7 +545,6 @@ footer{
     position: relative;
     z-index: 1;
     bottom: 5em;
-    padding-bottom: 3em;
     padding-top: 3em;
 }
 
